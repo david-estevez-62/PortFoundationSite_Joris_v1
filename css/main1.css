@@ -1,0 +1,93 @@
+html, body{
+	font-family: 'Source Code Pro';
+	font-size: 11px;
+}
+.header {
+  width:100%;
+  height:80px;
+  border-bottom: 1px solid black;
+}
+.container{
+	width:100%;
+	min-height:600px;
+}
+.wrapper{
+	width:594px;
+	min-height:600px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	margin:auto;
+}
+
+.headerpt1{
+	position:absolute;
+	top:63px;
+	left:120px;
+	height:78px;
+	width:1200px;
+}
+.headerpt2{
+	position: absolute;
+	top:10px;
+	left:208px;
+	height:35px;
+	width:1110px;
+}
+
+table td:nth-child(1){
+	width:200px;
+}
+table td:nth-child(2){
+	/*border-top: 1px solid blue;*/
+	border:0;
+	width:344px;
+}
+table td:nth-child(3){
+	width:184px;
+	/*border-top:0;*/
+}
+table td:nth-child(4){
+	border:0;
+	width:22px;
+}
+table td:nth-child(5){
+	width:184px;
+}
+table td:nth-child(6){
+	border:0;
+	width:22px;
+}
+table td:nth-child(7){
+	width:196px;
+}
+.works{
+	margin-top:-24.5px;
+	margin-left: 90px;
+}
+.type{
+	margin-top:-25px;
+	margin-left: 610px;
+}
+.year{
+	margin-top:-25px;
+	margin-left:814px;
+}
+.team{
+	margin-top: -25px;
+	margin-left:1008px;
+}
+@media(max-width:630px){
+	.wrapper{
+		width:97%;
+	}
+	img{
+		width:99.9%;
+	}
+}
+p{
+	margin-top:50px;
+}
+
+
+
+

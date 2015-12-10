@@ -27,14 +27,17 @@ a:hover {
 
 /*Layout*/
 .type{
+	/*opacity: 0;*/
 	margin-top:-25px;
 	margin-left: 610px;
 }
 .year{
+	/*opacity: 0;*/
 	margin-top:-25px;
 	margin-left:814px;
 }
 .team{
+	/*opacity: 0;*/
 	margin-top: -25px;
 	margin-left:1008px;
 }
@@ -44,44 +47,50 @@ a:hover {
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
 }
-
-.block1{
-	position:fixed;
+/*.sect1{
+	position:absolute;
 	top:28px;
 	left:120px;
 	height:78px;
 	width:1200px;
+}*/
+.block1{
+	height:78px;
+	width:1200px;
+	position:absolute;
+	top:28px;
+	left:120px;
 }
 .block2{
-	position:fixed;
+	position:absolute;
 	top:144px;
 	left:120px;
 	height:78px;
 	width:1200px;
 }
 .block3{
-	position:fixed;
+	position:absolute;
 	top:264px;
 	left:120px;
 	height:78px;
 	width:1200px;
 }
 .block4{
-	position:fixed;
+	position:absolute;
 	top:384px;
 	left:120px;
 	height:78px;
 	width:1200px;
 }
 .block5{
-	position:fixed;
+	position:absolute;
 	top:504px;
 	left:120px;
 	height:78px;
 	width:1200px;
 }
 .block6{
-	position:fixed;
+	position:absolute;
 	top:624px;
 	left:120px;
 	height:78px;
@@ -99,6 +108,7 @@ hr{
 	width:28px;
 }
 .longline{
+	/*opacity:0;*/
 	display: block; 
 	height: 1px;
     border: 0; 
@@ -110,42 +120,48 @@ hr{
 	width:1110px;
 }
 .table1{
-	position: fixed;
+	/*opacity:0;*/
+	position: absolute;
 	top:48px;
 	left:208px;
 	height:35px;
 	width:1110px;
 }
 .table2{
-	position: fixed;
+	/*opacity:0;*/
+	position: absolute;
 	top:165px;
 	left:208px;
 	height:35px;
 	width:1110px;
 }
 .table3{
-	position: fixed;
+	/*opacity:0;*/
+	position: absolute;
 	top:285px;
 	left:208px;
 	height:35px;
 	width:1110px;
 }
 .table4{
-	position: fixed;
+	/*opacity:0;*/
+	position: absolute;
 	top:405px;
 	left:208px;
 	height:35px;
 	width:1110px;
 }
 .table5{
-	position: fixed;
+	/*opacity:0;*/
+	position: absolute;
 	top:525px;
 	left:208px;
 	height:35px;
 	width:1110px;
 }
 .table6{
-	position: fixed;
+	/*opacity:0;*/
+	position: absolute;
 	top:645px;
 	left:208px;
 	height:35px;
@@ -185,6 +201,15 @@ table td:nth-child(7){
 
 .opaque{
 	opacity:0;
+	transition: opacity 0.01s ease-in-out;
+   -moz-transition: opacity 0.01s ease-in-out;
+   -webkit-transition: opacity 0.01s ease-in-out;
+}
+.opaque1{
+	opacity:0;
+	transition: opacity 0.1s ease-in-out;
+   -moz-transition: opacity 0.1s ease-in-out;
+   -webkit-transition: opacity 0.1s ease-in-out;
 }
 
 
